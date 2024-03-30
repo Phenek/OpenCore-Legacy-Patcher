@@ -860,7 +860,7 @@ class SystemPatchDictionary():
                             "AMDRadeonVADriver.bundle":      "12.5",
                             "AMDRadeonVADriver2.bundle":     "12.5",
                             "AMDRadeonX4000GLDriver.bundle": "12.5",
-                            "AMDMTLBronzeDriver.bundle":     "12.5",
+                            "AMDMTLBronzeDriver.bundle":     "12.5" if self.os_major < os_data.os_data.sonoma else "12.5-23",
                             "AMDShared.bundle":              "12.5",
                         },
                     },
@@ -920,7 +920,7 @@ class SystemPatchDictionary():
 
                             "AMDRadeonVADriver2.bundle":     "12.5",
                             "AMDRadeonX4000GLDriver.bundle": "12.5",
-                            "AMDMTLBronzeDriver.bundle":     "12.5",
+                            "AMDMTLBronzeDriver.bundle":     "12.5" if self.os_major < os_data.os_data.sonoma else "12.5-23",
                             "AMDShared.bundle":              "12.5",
                         },
                     },

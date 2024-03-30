@@ -7,8 +7,10 @@
   - Resolve 14.4 loginwindow crashes
 - Patch SkipLogo on Macs that natively support Monterey or newer
   - Resolves missing Apple logo on boot screen
+- Prevent AMDMTLBronzeDriver unrecognized selector errors
 - Increment Binaries:
   - OpenCorePkg 0.9.9 - release
+  - PatcherSupportPkg 1.5.0 - release
 
 ## 1.4.2
 - Resolve Auto-Join support for Modern Wireless on macOS 14.4
